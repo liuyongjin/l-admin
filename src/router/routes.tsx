@@ -1,5 +1,6 @@
 import {
-  createBrowserRouter,
+  // createBrowserRouter,
+  createHashRouter,
   Navigate,
   RouteObject,
   RouterProvider,
@@ -52,6 +53,6 @@ export const Router = () => {
     ],
   };
   const routes = [loginRoutes, asyncRoutes, errorRoutes, pageNotFoundRoutes];
-  const router = createBrowserRouter(routes);
+  const router = createHashRouter(routes);
   return <RouterProvider router={router} />;
 };
