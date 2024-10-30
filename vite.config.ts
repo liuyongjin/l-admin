@@ -6,12 +6,9 @@ import { createSvgIconsPlugin } from "vite-plugin-svg-icons";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ command }) => {
+export default defineConfig(() => {
   return {
     base: "./",
-    esbuild: {
-      drop: ["console", "debugger"],
-    },
     css: {
       devSourcemap: true,
     },
@@ -24,8 +21,27 @@ export default defineConfig(({ command }) => {
       }),
       viteMockServe({
         mockPath: "src/_mock",
-        enable: command === "serve",
+        enable: true,
       }),
     ],
+    server: {
+      proxy: {
+        "/api": {
+          target: "http://localhost:5173",
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/api/, ""),
+        },
+      },
+    },
+    build: {
+      target: "esnext",
+      minify: "terser",
+      terserOptions: {
+        compress: {
+          drop_console: true,
+          drop_debugger: true,
+        },
+      },
+    },
   };
 });

@@ -8,8 +8,11 @@ import { createRoot } from "react-dom/client";
 import { HelmetProvider } from "react-helmet-async";
 import { Provider } from "react-redux";
 
+import { setupProdMockServer } from "./_mock/mockProdServer.ts";
 import App from "./app.tsx";
 import { store } from "./store/store.ts";
+
+setupProdMockServer();
 
 const queryClient = new QueryClient({
   defaultOptions: {
