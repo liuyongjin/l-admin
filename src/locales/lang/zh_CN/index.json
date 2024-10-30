@@ -1,0 +1,53 @@
+{
+  "layout": {
+    "menu": {
+      "list": "列表",
+      "table-list": "查询表格",
+      "dashboard": "仪表",
+      "workbench": "工作台",
+      "management": "管理",
+      "permissions": "权限"
+    },
+    "tab": {
+      "fullscreen": "内容全屏",
+      "refresh": "刷新",
+      "close": "关闭标签页",
+      "closeOthers": "关闭其它标签页",
+      "closeAll": "关闭所有标签页",
+      "closeLeft": "关闭左侧标签页",
+      "closeRight": "关闭右侧标签页"
+    },
+    "account": {
+      "permissions": "权限"
+    },
+    "settings": {
+      "settings": "设置",
+      "exitFullScreen": "退出全屏",
+      "fullScreen": "全屏",
+      "mode": "模式",
+      "presets": "主题色",
+      "page": "页面",
+      "fixHeader": "固定头部",
+      "multiTab": "多标签页面"
+    }
+  },
+  "sys": {
+    "api": {
+      "apiRequestFailed": "请求出错，请稍候重试",
+      "errorMessage": "操作失败，系统异常!"
+    },
+    "page": {
+      "goToHome": "回到主页",
+      "pageNotFound": "抱歉, 页面未找到!",
+      "noPermission":"没有权限!",
+      "internalServer": "500 服务器错误!"
+    },
+    "login": {
+      "loginButton": "登录",
+      "registerButton": "注册",
+      "rememberMe": "记住我",
+      "forgetPassword": "忘记密码?",
+      "logout": "退出"
+    }
+  }
+}

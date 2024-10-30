@@ -1,0 +1,53 @@
+{
+  "layout": {
+    "menu": {
+      "list": "List",
+      "table-list": "Table-List",
+      "dashboard": "Dashboard",
+      "workbench": "Workbench",
+      "management": "Management",
+      "permissions": "Permissions"
+    },
+    "tab": {
+      "fullscreen": "FullScreen",
+      "refresh": "Refresh",
+      "close": "Close",
+      "closeOthers": "Close Others",
+      "closeAll": "Close All",
+      "closeLeft": "Close Left",
+      "closeRight": "Close Right"
+    },
+    "account": {
+      "permissions": "Permissions"
+    },
+    "settings": {
+      "settings": "Settings",
+      "exitFullScreen": "Exit FullScreen",
+      "fullScreen": "FullScreen",
+      "mode": "Mode",
+      "presets": "Presets",
+      "page": "Page",
+      "fixHeader": "Fix Header",
+      "multiTab": "Multi Tab"
+    }
+  },
+  "sys": {
+    "api": {
+      "apiRequestFailed": "The interface request failed, please try again later!",
+      "errorMessage": "The operation failed, the system is abnormal!"
+    },
+    "page": {
+      "goToHome": "Go To Home",
+      "pageNotFound": "Sorry, Page Not Found!",
+      "noPermission": "No permission!",
+      "internalServer": "500 Internal Server Error!"
+    },
+    "login": {
+      "loginButton": "Sign in",
+      "registerButton": "Sign up",
+      "rememberMe": "Remember me",
+      "forgetPassword": "Forget Password?",
+      "logout": "Logout"
+    }
+  }
+}
