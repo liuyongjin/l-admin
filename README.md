@@ -36,4 +36,4 @@ Open [http://localhost:5173](http://localhost:5173) with your browser to see the
 
 ## Online preview
 
-Preview url: [https://xxx](https://xxx)
+Preview url: [https://l-admin.pages.dev](https://l-admin.pages.dev)
